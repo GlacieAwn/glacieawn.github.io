@@ -5,8 +5,8 @@
     <link rel="icon" type="image/svg+xml" href="../../favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ゲーム音楽作曲家 | Glacieawn</title>
-    <script type="module" crossorigin src="/assets/index-Bd_SY90t.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-D5czUZe1.css">
+    <script type="module" crossorigin src="/assets/index-DHmMrVld.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-D7zO5wIu.css">
     <link rel="alternate" hreflang="ja" href="https://glacieawn.cv/home/jp/">
     <link rel="alternate" hreflang="en" href="https://glacieawn.cv/home/en/">
   </head>
@@ -49,45 +49,51 @@
       <h1>代表作</h1>
 
       <section class="carrousel">
-        <img src="../../Arrow.svg" class="arrow-button rotate-180" />
+        <button type="button" class="arrow-button rotate-180">
+          <img src="../../Arrow.svg" alt="" aria-hidden="true" />
+        </button>
 
         <!-- The box that contains the slideshow -->
-        <div id="slideshow">
-          <article class="slide">
-            <span class="cover-image starlitwanderer">
-              <p>
-                『Starlit Wanderer』は、過去の記憶を失った状態で<br />デジタルワールドに
-                目覚めるキャラクター主導のRPGです。この世界<br />(アルカディアと呼ばれる)では、
-                表現豊かな生き物たちや、一見<br />無意味な冒険、そして愉快でハチャメチャな
-                出来事の数々が待っています!
-              </p>
-            </span>
-          </article>
+        <div class="slideshow-window">
+          <div id="slideshow" class="slideshow-track" aria-live="polite">
+            <article class="slide">
+              <span class="cover-image starlitwanderer">
+                <p>
+                  『Starlit Wanderer』は、過去の記憶を失った状態で<br />デジタルワールドに
+                  目覚めるキャラクター主導のRPGです。この世界<br />(アルカディアと呼ばれる)では、
+                  表現豊かな生き物たちや、一見<br />無意味な冒険、そして愉快でハチャメチャな
+                  出来事の数々が待っています!
+                </p>
+              </span>
+            </article>
 
-          <article class="slide">
-            <span class="cover-image tacticalmisfits">
-              <p>
-                『Tactical Misfits』は、Clash Miniにインスパイアされた
-                <br />
-                モバイル向けチェス風オートバトラーです。盤上に戦略的に
-                <br />ユニットを配置して戦いましょう!(近日公開)
-              </p>
-            </span>
-          </article>
+            <article class="slide">
+              <span class="cover-image tacticalmisfits">
+                <p>
+                  『Tactical Misfits』は、Clash Miniにインスパイアされた
+                  <br />
+                  モバイル向けチェス風オートバトラーです。盤上に戦略的に
+                  <br />ユニットを配置して戦いましょう!(近日公開)
+                </p>
+              </span>
+            </article>
 
-          <article class="slide">
-            <span class="cover-image melonesaga">
-              <p>
-                虫と植物の世界を舞台に、スイカのメローネが
-                <br />
-                害虫や、植物の聖なる宝石を狙うファイアアリたちに<br />占拠された
-                ダンジョンの攻略に挑みます。(アーリーアルファ版)
-              </p>
-            </span>
-          </article>
+            <article class="slide">
+              <span class="cover-image melonesaga">
+                <p>
+                  虫と植物の世界を舞台に、スイカのメローネが
+                  <br />
+                  害虫や、植物の聖なる宝石を狙うファイアアリたちに<br />占拠された
+                  ダンジョンの攻略に挑みます。(アーリーアルファ版)
+                </p>
+              </span>
+            </article>
+          </div>
         </div>
 
-        <img src="../../Arrow.svg" class="arrow-button rotate" />
+        <button type="button" class="arrow-button">
+          <img src="../../Arrow.svg" alt="" aria-hidden="true" />
+        </button>
       </section>
     </section>
 
@@ -100,6 +106,7 @@
           <h1>Glacie - 2026年7月 デモリール</h1>
         </header>
         <audio controls src="../../demo.wav"></audio>
+      </article>
     </section>
 
 

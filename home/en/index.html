@@ -5,31 +5,30 @@
     <link rel="icon" type="image/svg+xml" href="../../favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Game Music Composer | Glacieawn</title>
-    <script type="module" crossorigin src="/assets/index-Bd_SY90t.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-D5czUZe1.css">
+    <script type="module" crossorigin src="/assets/index-DHmMrVld.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-D7zO5wIu.css">
     <link rel="alternate" hreflang="en" href="https://glacieawn.cv/home/en/">
     <link rel="alternate" hreflang="ja" href="https://glacieawn.cv/home/jp/">
   </head>
   <body>
     <!-- Main page header -->
     <header class="page">
-      <img src="../../favicon.png" />
+      <img src="favicon.png" />
       <div class="header-link-collection">
-        <a href="#hero" class="header-link">Home</a>
-        <a href="#featured-works" class="header-link">Featured Works</a>
-        <a href="#music" class="header-link">Music</a>
-        <!-- <a href="" class="header-link">About</a> -->
-        <a href="#contact" class="header-link">Contact</a>
+        <a href="" class="header-link">Home</a>
+        <a href="" class="header-link">Featured Works</a>
+        <a href="" class="header-link">Music</a>
+        <a href="" class="header-link">About</a>
+        <a href="" class="header-link">Contact</a>
       </div>
-      <a class="button" href="../jp/" aria-label="日本語 / English">
-        <span lang="en">En</span>
-        <span>/</span>
-        <span lang="ja">日本語</span>
-      </a>
+      <a class="button" href=""
+        >En/
+        <p style="font-family: 'NotoSansJP">日本語</p></a
+      >
     </header>
 
     <!-- Hero -->
-    <section id="hero" class="hero">
+    <section class="hero">
       <h1>Memorable Music for Games</h1>
       <p>
         Inspired by classic Japanese game soundtracks, I create memorable<br />themes
@@ -37,79 +36,81 @@
       </p>
 
       <div class="button-collection">
-        <a href="#music" class="button">Listen</a>
-        <a href="#featured-works" class="button">Featured Works</a>
+        <a href="" class="button">Listen</a>
+        <a href="" class="button">Featured Works</a>
       </div>
     </section>
 
-    <br><br>
-
     <!-- Featured Works -->
-    <section id="featured-works" class="featured-works">
+    <section class="featured-works">
       <h1>Featured Works</h1>
 
-      <section class="carrousel">
-        <img src="../../Arrow.svg" class="arrow-button rotate-180" />
+      <section class="carrousel" aria-label="Featured works carousel">
+        <button
+          type="button"
+          class="arrow-button rotate-180"
+          aria-label="Previous slide"
+        >
+          <img src="../../Arrow.svg" alt="" aria-hidden="true" />
+        </button>
 
-        <!-- The box that contains the slideshow -->
-        <div id="slideshow">
-          <article class="slide">
-            <span class="cover-image starlitwanderer">
-              <p>
-                Starlit Wanderer is a character-driven RPG where you awaken<br />in
-                a digital world with no recollection of the past. In this
-                realm<br />(known as Arcadia), you are met with expressive
-                creatures, seemingly<br />pointless adventures, and silly,
-                unhinged nonsense!
-              </p>
-            </span>
-          </article>
+        <div class="slideshow-window">
+          <div id="slideshow" class="slideshow-track" aria-live="polite">
+            <article class="slide">
+              <span class="cover-image starlitwanderer">
+                <p>
+                  Starlit Wanderer is a character-driven RPG where you awaken<br />in
+                  a digital world with no recollection of the past. In this
+                  realm<br />(known as Arcadia), you are met with expressive
+                  creatures, seemingly<br />pointless adventures, and silly,
+                  unhinged nonsense!
+                </p>
+              </span>
+            </article>
 
-          <article class="slide">
-            <span class="cover-image tacticalmisfits">
-              <p>
-                Tactical Misfits is a mobile chess auto-battler inspired by
-                <br />
-                Clash Mini. Place units strategically on the board and
-                <br />battle it out! (COMING SOON)
-              </p>
-            </span>
-          </article>
+            <article class="slide">
+              <span class="cover-image tacticalmisfits">
+                <p>
+                  Tactical Misfits is a mobile chess auto-battler inspired by
+                  <br />
+                  Clash Mini. Place units strategically on the board and
+                  <br />battle it out! (COMING SOON)
+                </p>
+              </span>
+            </article>
 
-          <article class="slide">
-            <span class="cover-image melonesaga">
-              <p>
-                In a world of bugs and plants you follow Melone, a
-                watermelon,<br />
-                as he tries to clear a dungeon overrun by pests and <br />Fire
-                Ants trying to steal the plants' sacred Gem. (EARLY ALPHA)
-              </p>
-            </span>
-          </article>
+            <article class="slide">
+              <span class="cover-image melonesaga">
+                <p>
+                  In a world of bugs and plants you follow Melone, a
+                  watermelon,<br />
+                  as he tries to clear a dungeon overrun by pests and <br />Fire
+                  Ants trying to steal the plants' sacred Gem. (EARLY ALPHA)
+                </p>
+              </span>
+            </article>
+          </div>
         </div>
 
-        <img src="../../Arrow.svg" class="arrow-button rotate" />
+        <button type="button" class="arrow-button" aria-label="Next slide">
+          <img src="../../Arrow.svg" alt="" aria-hidden="true" />
+        </button>
       </section>
     </section>
 
-    <br><br>
-
     <!-- Demo files -->
-    <section id="music" class="demofiles">
+    <section class="demofiles">
+
       <article>
         <header>
           <h1>Glacie - 2026-07 Demo Reel</h1>
         </header>
-        <audio controls src="../../demo.wav"></audio>
+        <audio controls src=../../demo.wav></audio>
+      </article>
     </section>
 
-    <br><br><br><br>
-    <br><br><br><br>
-
-
-
     <!-- Pitch section -->
-    <section id="contact" class="pitch-section">
+    <section class="pitch-section">
       <header>
         <h1>
           Have a project that could use memorable music?<br />Send an email with
@@ -117,24 +118,21 @@
         </h1>
       </header>
 
-      <a href="mailto:glacieawn@gmail.com" class="button">Contact me</a>
-      <br><br>
-      <br><br>
+      <a href="" class="button">Contact me</a>
     </section>
-
 
     <!-- Footer -->
     <footer class="page-footer">
       <div class="header-link-collection">
-        <a href="#hero" class="header-link">Home</a>
+        <a href="" class="header-link">Home</a>
         <span>-</span>
-        <a href="#featured-works" class="header-link">Featured Works</a>
+        <a href="" class="header-link">Featured Works</a>
         <span>-</span>
-        <a href="#music" class="header-link">Music</a>
+        <a href="" class="header-link">Music</a>
         <span>-</span>
-        <!-- <a href="" class="header-link">About</a> -->
+        <a href="" class="header-link">About</a>
         <span>-</span>
-        <a href="#contact" class="header-link">Contact</a>
+        <a href="" class="header-link">Contact</a>
       </div>
     </footer>
   </body>

@@ -93,7 +93,9 @@ margin-top:.35rem;color:var(--deep);font-size:.9rem;font-style:normal;font-weigh
 .reels{
 background:#f7fcff}
 .reel-player{
-max-width:680px;padding:1.6rem;display:grid;gap:1rem;background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow)}
+width:100%;padding:1.1rem 0;display:grid;grid-template-columns:minmax(180px,.65fr) minmax(260px,1fr);align-items:center;gap:1.5rem;background:transparent;border:0;border-radius:0;box-shadow:none}
+.reel-player + .reel-player{
+border-top:1px solid var(--line)}
 .reel-player audio{
 width:100%}
 .credits{
@@ -135,6 +137,8 @@ min-height:620px}
 grid-template-columns:1fr}
 .work-card{
 min-height:360px}
+.reel-player{
+grid-template-columns:1fr;gap:.65rem}
 .contact{
 align-items:flex-start;flex-direction:column}
 .contact h2 br{
